@@ -61,18 +61,6 @@ const apiKey = "09b43cf1965a9be8b7c1b75c3e9543aa";
                 })
             }
             })
-/*
-//Notification
-const notifBtn = document.querySelector(".notification button");
-notifBtn.addEventListener("click", ()=>{
-    Notification.requestPermission().then(perm=>{
-        if(perm == "granted")
-            new Notification("Weather App", {
-                body: "You will now receive notifications from this app.",
-                icon: "Icons/clouds.png"  
-            })
-    })
-})
-*/
+
 
 
